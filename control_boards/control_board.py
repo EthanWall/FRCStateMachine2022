@@ -8,3 +8,6 @@ class ControlBoardBase:
 
     def get_turn(self) -> float:
         raise NotImplemented
+
+    def get_arm(self) -> float:
+        raise NotImplemented
